@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aryan Baburajan</title>
+  <base href="/versions/2021-03/">
+  <style>
+    @font-face { font-family: 'Montserrat Alternates'; src: url('./montserrat-alternates-light.ttf') format('truetype'); font-weight: 300; font-display: swap; }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; margin: 0; }
+    body { min-height: 100vh; background: #352a2b url('/versions/2021-03/background.jpg') center center / cover no-repeat fixed; color: #ddd8dc; font-family: 'Montserrat Alternates', sans-serif; }
+    .sidebar { width: clamp(230px, 17.75vw, 320px); min-height: 100vh; background: #000; }
+    .menu { display: flex; flex-direction: column; margin: 0; padding: 0; list-style: none; }
+    .menu li { height: 12.6vh; min-height: 60px; }
+    .item { display: grid; grid-template-columns: 32% 1fr; align-items: center; height: 100%; padding-left: 11%; color: inherit; font-size: clamp(17px, 1.45vw, 26px); font-weight: 300; text-decoration: none; transition: color 200ms ease; }
+    .item:hover, .item:focus-visible { color: #808080; }
+    .initial { text-transform: uppercase; }
+    @media (max-width: 600px) { .sidebar { width: 36%; min-width: 132px; } .item { grid-template-columns: 30% 1fr; padding-left: 10%; font-size: 16px; } }
+  </style>
+</head>
+<body>
+  <nav class="sidebar" aria-label="Site navigation">
+    <ul class="menu">
+      <li><a class="item" href="./index.html"><span class="initial">H</span><span>Home</span></a></li>
+      <li><a class="item" href="./about.html"><span class="initial">A</span><span>About</span></a></li>
+      <li><a class="item" href="./blog.html"><span class="initial">B</span><span>Blog</span></a></li>
+      <li><a class="item" href="./game.html"><span class="initial">G</span><span>Game</span></a></li>
+      <li><a class="item" href="./work.html"><span class="initial">W</span><span>Work</span></a></li>
+      <li><a class="item" href="./project.html"><span class="initial">P</span><span>Project</span></a></li>
+      <li><a class="item" href="./contact.html"><span class="initial">C</span><span>Contact</span></a></li>
+    </ul>
+  </nav>
+</body>
+</html>

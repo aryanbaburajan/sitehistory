@@ -1,0 +1,57 @@
+[
+  {
+    "id": "screenshot",
+    "date": "2021-03",
+    "subject": "March 2021",
+    "url": "/versions/2021-03/"
+  },
+  {
+    "id": "3f9cfac0426bce7556916137c2e1c1c8885bf758",
+    "date": "2022-05-01",
+    "subject": "Add works page",
+    "url": "/versions/2022-05-01/index.html"
+  },
+  {
+    "id": "ad950ee7ccb56e23be555fda3b2da0c77bd99732",
+    "date": "2023-04-14",
+    "subject": "Fix DirectShare link",
+    "url": "/versions/2023-04-14/index.html"
+  },
+  {
+    "id": "e8ba3023f9404febb04d17b5ad95c3d893e20692",
+    "date": "2023-07-18",
+    "subject": "Fix: fix index.html margin (2)",
+    "url": "/versions/2023-07-18/docs/index.html"
+  },
+  {
+    "id": "b3f404652a30ec77a745e5761e982a09609e2e41",
+    "date": "2023-07-21",
+    "subject": "fix: Fix typo in cmake-for-dummies-blog",
+    "url": "/versions/2023-07-21/docs/index.html"
+  },
+  {
+    "id": "612ff66b09858d04ac768f22ebe083af00d5f954",
+    "date": "2023-10-30",
+    "subject": "blog: spotify-pushes-shuffle-only-restrictions",
+    "url": "/versions/2023-10-30/docs/index.html"
+  },
+  {
+    "id": "6486497bd089ac97675c608e010e35357d03bf82",
+    "date": "2024-11-24",
+    "subject": "redesign beta",
+    "url": "/versions/2024-11-24/beta.html"
+  },
+  {
+    "id": "a8d08aacd6892e26f7ecd8072b792e1a6732fcd8",
+    "date": "2026-01-20",
+    "subject": "remove banner",
+    "url": "/versions/2026-01-20/index.html"
+  },
+  {
+    "id": "33fa8ffcd33d5c8c9323b126bdc2ebd6c3d4786e",
+    "date": "2026-11-08",
+    "subject": "Replace em dashes on home page",
+    "url": "/versions/2026-11-08-replace-em-dashes-on-home-page/",
+    "source": "site"
+  }
+]
